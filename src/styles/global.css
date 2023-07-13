@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  cursor:none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+.circle-dot{
+  width:10px;
+  height:10px;
+  background-color:#b93e3e;
+}
+
+.circle-outline{
+  width:20px;
+  height:20px;
+  border:1px solid brown
+}
+
+.circle-dot,.circle-outline{
+  position:fixed;
+  top:0;
+  left:0;
+  transform:translate(-50%,-50%);
+  border-radius:50%;
+  z-index:20;
+  pointer-events:none;
+}
+
+.formCard{
+  animation-name:cardAnimate;
+  animation-duration:2s;
+  /* animation-iteration-count:4; */
+}
+
+@keyframes cardAnimate{
+  0%{
+    transform:skew(0deg);
+    /* transform:rotate(0deg); */
+  }
+  25%{
+    transform:skew(5deg);
+    /* transform:rotate(10deg); */
+  }
+  50%{
+    transform:skew(-5deg);
+    /* transform:rotate(20deg); */
+  }
+  75%{
+    transform:skew(3deg);
+    /* transform:rotate(10deg); */
+  }
+  100%{
+    transform:skew(0deg);
+    transform:rotate(0deg);
+  }
+}
