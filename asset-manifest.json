@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.95638f37.css",
-    "main.js": "/static/js/main.0a9f468b.js",
-    "static/js/787.8e63f347.chunk.js": "/static/js/787.8e63f347.chunk.js",
-    "static/media/loginBackground.avif": "/static/media/loginBackground.f4b9b2fc071800442cd5.avif",
-    "index.html": "/index.html",
-    "main.95638f37.css.map": "/static/css/main.95638f37.css.map",
-    "main.0a9f468b.js.map": "/static/js/main.0a9f468b.js.map",
-    "787.8e63f347.chunk.js.map": "/static/js/787.8e63f347.chunk.js.map"
+    "main.css": "/signup_form_hooks/static/css/main.4e4c4716.css",
+    "main.js": "/signup_form_hooks/static/js/main.85f4f2bf.js",
+    "static/js/787.84096c98.chunk.js": "/signup_form_hooks/static/js/787.84096c98.chunk.js",
+    "static/media/loginBackground.avif": "/signup_form_hooks/static/media/loginBackground.f4b9b2fc071800442cd5.avif",
+    "index.html": "/signup_form_hooks/index.html",
+    "main.4e4c4716.css.map": "/signup_form_hooks/static/css/main.4e4c4716.css.map",
+    "main.85f4f2bf.js.map": "/signup_form_hooks/static/js/main.85f4f2bf.js.map",
+    "787.84096c98.chunk.js.map": "/signup_form_hooks/static/js/787.84096c98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95638f37.css",
-    "static/js/main.0a9f468b.js"
+    "static/css/main.4e4c4716.css",
+    "static/js/main.85f4f2bf.js"
   ]
 }
